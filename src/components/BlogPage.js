@@ -2,7 +2,34 @@ import React from 'react'
 
 const BlogPage = () => {
   return (
-    <div>BlogPage</div>
+    <div className='container'>
+      <h1>ブログ</h1>
+
+      <p>
+        lorem100  
+      </p>
+      <p>
+        lorem100  
+      </p>
+      <p>
+        lorem100  
+      </p>
+      <p>
+        lorem100  
+      </p>
+      <p>
+        lorem100  
+      </p>
+      <p>
+        lorem100  
+      </p>
+      <p>
+        lorem100  
+      </p>
+      <p>
+        lorem100  
+      </p>
+    </div>
   )
 }
 
