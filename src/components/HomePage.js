@@ -2,19 +2,18 @@ import React from 'react'
 import { Button } from 'react-bootstrap';
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
-import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/sibainu.jpg";
+import firebaseImage from "../Images/java-logo.jpg";
+import profileImage from "../Images/8.png";
 
 const HomePage = () => {
   return (
 <div className="container text-center">
-      <h1>Shin Code</h1>
+      <h1>TEST PAGE</h1>
 
       <img src={profileImage} className="profileImage" />
 
       <p>
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
+        さくらいです。HTML/CSS/JavaScript/Reactを使用した作成物をGithubにて公開しています。
       </p>
 
       <section class="page-section" id="services">
@@ -82,8 +81,8 @@ const HomePage = () => {
             </div>
             <div class="col-md-4 services">
               <img src={firebaseImage} />
-              <h4>Firebase</h4>
-              <p>Firebaseがつかえます</p>
+              <h4>Java</h4>
+              <p>Javaがつかえます</p>
             </div>
           </div>
           <button type="button" class="btn btn-primary">
